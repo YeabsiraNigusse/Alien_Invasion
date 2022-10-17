@@ -11,8 +11,8 @@ class Settings:
         self.speedup_scale = 1.1
         self.score_scale = 1.5
         self.bg_color = (230,230,230)
-        self.screen_width = 1100
-        self.screen_height = 700
+        self.screen_width = 1371
+        self.screen_height = 710
 
         self.initialize_dynamic_setting()
 
