@@ -34,7 +34,7 @@ class AlienInvasion:
 
     def run_game(self):
         """start the main loop for the game"""
-        mixer.music.load(r'C:\Users\User\Desktop\python\Projects\Alien_Invasion\Musics\samiMusic.mp3')
+        mixer.music.load('Musics/samiMusic.mp3')
         mixer.music.play(-1)
         while True:
             #watch for keyboard and mouse events
@@ -164,7 +164,7 @@ class AlienInvasion:
             self.ship.moving_left = True
          elif event.key == pygame.K_SPACE:
             if self.stats.game_active:
-              bullet_sound = mixer.Sound(r'C:\Users\User\Desktop\python\Projects\Alien_Invasion\Musics\shotgun.mp3')
+              bullet_sound = mixer.Sound('Musics/shotgun.mp3')
               bullet_sound.play()
             self._fire_Bullet()
          elif event.key == pygame.K_q:

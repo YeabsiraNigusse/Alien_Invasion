@@ -43,7 +43,7 @@ class ScorBoard:
         self.high_score_rect = self.high_score_image.get_rect()
         self.high_score_rect.centerx = self.screen_rect.centerx
         self.high_score_rect.top = self.score_rect.top
-        path = Path(r'C:\Users\User\Desktop\python\Projects\Alien_Invasion\files\high_score.txt')
+        path = Path('files/high_score.txt')
         try:
             with open(path, 'w') as file:
                 high_score = str(high_score)

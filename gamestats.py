@@ -6,7 +6,7 @@ class GameStats:
         self.settings =  ai_game.settings
         self.reset_stats()
         self.game_active = False
-        path = Path(r'C:\Users\User\Desktop\python\Projects\Alien_Invasion\files\high_score.txt')
+        path = Path('files/high_score.txt')
         try:
             with open(path) as file:
                 content = file.read()
