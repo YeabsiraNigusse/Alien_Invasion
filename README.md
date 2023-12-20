@@ -1,5 +1,5 @@
 # Alien_Invasion
-This is a project called Alien Invasion from Python crush course book.
+This is a project called Alien Invasion from Python crash course book.
 I made this project during my python learning journey.
 This increase my confidence in building  projects  and using Libraries of python.
 It feels amazing to play a game that build by yourself even if the game is not your creative work.
